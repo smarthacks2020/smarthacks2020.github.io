@@ -1,2 +1,2 @@
-# smarthacks2020.github.io
-website for smarthacks
+# smarthacks
+Website for SmartHacks, organized by KidTeachKid, in affiliation with TeenHacksHTX

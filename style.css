@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+  background-color: white;
+  color: #58B22D;
+  background-image: url('./covergain.png');
+  background-size: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topnotice {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 2em 0 2em 0;
+  width: 748px;
+  border-top: 67px solid #58B22D;
+  border-left: 67px solid #58B22D;
+  border-right: 67px solid #58B22D;
+}
+
+.topnotice h1 {
+  font-family: Raleway;
+}
+
+.topnotice h2 {
+  font-family: Raleway;
+}
+
+.cover {
+  text-align: center;
+  margin: 0em auto 0em auto;
+  width: 882px;
+}
+
+#coverimg {
+    border-radius: 50%;
+    box-shadow: 0 0 50px 10px lightgray;
+}
+
+.stripnocolor {
+  color: #58B22D;
+  margin: 50px auto 5px auto;
+  padding: 2em 2em 2em 2em;
+  font-family: Raleway;
+  width: 750px;
+  font-size: 2em;
+  border-radius: 50px;
+  box-shadow: 0 0 50px 10px lightgray;
+  background-color: white;
+}
+
+.stripnocolorbuttons {
+    color: #58B22D;
+    margin: 50px auto 5px auto;
+    padding: 2em 2em 2em 2em;
+    font-family: Raleway;
+    width: 750px;
+    font-size: 2em;
+  }
+
+.stripwhite {
+  color: #58B22D;
+  margin: 5px auto 5px auto;
+  padding: 2em 2em 2em 2em;
+  font-family: Raleway;
+  width: 750px;
+  font-size: 2em;
+}
+
+.sponsorsect {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+.sponsorimg {
+  justify-self: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.stripcolor {
+  background-color: #58B22D;
+  margin: 50px auto 0 auto;
+  width: 700px;
+  padding: 0em 2em 2em 2em;
+  color: white;
+  font-family: Raleway;
+  font-size: 2em;
+  border: 2px solid #58B22D;
+  border-radius: 50px;
+  box-shadow: 0 0 50px 10px lightgray;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stripbutton {
+  background-color: #58B22D;
+  color: white;
+  border-radius: 50px;
+  border: 2px solid #58B22D;
+  font-size: 1em;
+  height: 2em;
+  text-align: center;
+  width: fit-content;
+  line-height: 2em;
+  text-decoration: none;
+  font-family: Raleway;
+  padding: 0.5em 1em 0.5em 1em;
+  transition: 0.5s;
+  box-shadow: 0 0 50px 10px rgb(184, 184, 184);
+
+}
+
+.stripbutton:hover {
+  background-color: white;
+  border: 2px solid #58B22D;
+  color: #58B22D;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SmartHacks 2020</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="A hackathon event for everyone">
+    <meta name="keywords" content="hackathon, hacker, team, competition, coding, STEM, event">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type = "text/javascript">
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            if (document.getElementById("coverimg").src.includes("gif")) {
+              document.getElementById("coverimg").src = "Smart.png";
+            }
+        }
+
+        function startTimer() {
+            setInterval(displayNextImage, 5000);
+        }
+
+        var images = [], x = -1;
+        images[0] = "Smart.gif";
+        images[1] = "Smart.png";
+    </script>
+  </head>
+  <body onload = "startTimer()">
+    <!-- <div class="topnotice">
+      <h1>Thanks for coming!</h1>
+      <h2>200+ hackers, 30+ countries, 1 event</h2>
+    </div> -->
+    <div class="cover">
+      <img id="coverimg" src="Smart.gif" width="500px">
+    </div>
+    <div class="stripnocolorbuttons">
+      <div class="flexrow">
+        <a class="stripbutton" href="https://forms.gle/RUVqBJLbgEkYT7qd9">Register Now</a>
+        <a class="stripbutton" href="https://discord.gg/XAyXymG">Join Discord</a>
+      </div>
+    </div>
+    <div class="stripcolor">
+      <div class="centered">
+        <br>
+        <b>A learning festival for middle schoolers</b> <br><br> 
+        Join us for America's first-ever middle school hackfest - an academic festival and hackathon contest, where teams of middle school students can compete for prizes, and learn valuable STEM skills along the way.
+      </div>
+    </div>
+    <div class="stripnocolor">
+      <div class="centered">
+        Co-hosted with<br>
+        <a href="https://kidteachkid.org/"><img src="ktk.png" width="250px"></a>
+      </div>
+    </div>
+    
+    <div class="stripnocolor">
+      <div class="centered">
+        <b>Competition Details</b>
+      </div>
+      <br>
+      <div class="justified">
+        <b>When is it?</b> September 13-19th, 2020
+        <br><br>
+        <b>Where is it held?</b> Online!
+        <br><br>
+        <b>Who can attend?</b> Anyone enrolled in grades 5-9
+        <br><br>
+        <b>What are the themes?</b> Education, Community impact, and Health
+        <br><br>
+        <b>Team sizes?</b> Up to 4 per team
+      </div>
+    </div>
+    <!-- <div class="stripwhite">
+      <div class="centered">
+        Sponsors
+      </div>
+      <div class="sponsorsect">
+        <a href="https://www.modulusedu.com/"><img class="sponsorimg" src="moduluslogo.png" width="300px"></a>
+        <a href="https://koinedu.us/"><img class="sponsorimg" src="sponsors/koin.png" width="300px"></a>
+        <a href="https://www.digitalocean.com/"><img class="sponsorimg"  src="sponsors/do.png" width="300px"></a>
+        <a href="https://www.echoar.xyz/"><img class="sponsorimg"  src="sponsors/echoar.png" width="300px"></a>
+        <a href="https://www.firsttext.com/"><img class="sponsorimg" src="sponsors/firsttext.png" width="300px"></a>
+        <a href="https://www.interviewcake.com/"><img class="sponsorimg" src="sponsors/interviewcake.jpg" width="300px"></a>
+        <a href="https://www.linode.com/"><img class="sponsorimg" src="sponsors/linode.png" width="300px"></a>
+        <a href="https://streamyard.com/"><img class="sponsorimg" src="sponsors/streamyard.png" width="300px"></a>
+        <a href="https://www.taskade.com/"><img class="sponsorimg" src="sponsors/taskade.png" width="300px"></a>
+        <a href="https://www.voiceflow.com/"><img class="sponsorimg" src="sponsors/voiceflow.png" width="300px"></a>
+        <a href="https://www.wolframalpha.com/"><img class="sponsorimg" src="sponsors/wolfram.png" width="300px"></a>
+        <a href="https://repl.it"><img class="sponsorimg" src="sponsors/replit.png" width="300px"></a>
+        <a href="https://makeymakey.com/"><img class="sponsorimg" src="sponsors/makeymakey.png" width="300px"></a>
+        <a href="https://openwatervc.com/"><img class="sponsorimg" src="sponsors/openwaterlogo.png" width="300px"></a>
+      </div>
+    </div> -->
+    <div class="stripnocolor">
+      <div class="centered">
+        <b>Get in Touch</b> <br><br>
+        <a href="mailto:support@kidteachkid.org">Email</a> |
+        <a href="https://instagram.com/kidteachkid">Instagram</a>
+      </div>
+    </div>
+    <div class="stripnocolor">
+      <div class="centered">Website by Daniel Wei<br>Copyright 2020 KidTeachKid</div>
+    </div>
+    <br><br><br>
+  </body>
+</html>
