@@ -65,23 +65,27 @@ a {
 .stripwhite {
   color: #58B22D;
   margin: 5px auto 5px auto;
+  margin-top: 2em;
   padding: 2em 2em 2em 2em;
   font-family: Raleway;
   width: 750px;
   font-size: 2em;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 0 50px 10px lightgray;
 }
 
 .sponsorsect {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .sponsorimg {
   justify-self: center;
+  background-color: white;
+  width: 150px;
+  object-fit: fill;
 }
-
 .centered {
   text-align: center;
 }
